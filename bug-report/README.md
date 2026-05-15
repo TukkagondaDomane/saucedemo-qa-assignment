@@ -121,3 +121,26 @@ ________________________________________________________________________________
 **Recordings Attached**:[ Input validation recording](https://drive.google.com/file/d/19C9E4x_rgDHTKjWbMWwosGDShj8wYEBy/view?usp=sharing)
 
 ____________________________________________________________________________________________________________________________________________________________________________________________________________________________
+
+
+**BUG 005**
+
+**Title**: Incorrect text 'Swag Labs' is displayed on the application header and the browser tab 
+
+**Description**: It is observed that the incorrect text 'Swag Labs' is displayed instead of 'Sauce Labs' on the application header and the browser tab.
+
+**Steps to Reproduce**:
+1.Navigate to the application Login screen.
+2.Observe the text 'Swag Labs' displayed on header text displayed on the application header and the browser tab.
+
+**Expected Result**: The header text should display “Sauce Labs” as per the expected branding.
+
+**Actual Result**: The header text is displayed as “Swag Labs” instead of “Sauce Labs”.
+
+**Severity**: Low
+
+**Priority**: High
+
+**Screenshot Attached**: [Incorrect brand name](https://drive.google.com/file/d/1Be87FX_MMEls_4aNknJC5fSOm8YyOt0p/view?usp=sharing)
+
+____________________________________________________________________________________________________________________________________________________________________________________________________________________________
