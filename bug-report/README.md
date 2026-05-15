@@ -92,4 +92,32 @@ ________________________________________________________________________________
 **Recordings Attached**: [Validation message recording](https://drive.google.com/file/d/12qVS9mspkn33aMmQTGXMJJgNlQjiQp8w/view?usp=sharing)
 
 ____________________________________________________________________________________________________________________________________________________________________________________________________________________________
-                         
+
+
+                
+              
+
+**BUG 004**
+
+**Title**: Input fields accept invalid data without validation on Login and Checkout screens
+
+**Description**: Input fields on both Login and Checkout screens do not enforce proper validation. Users can enter unlimited characters and any type of input (numbers, text, or mixed values) in fields such as Username, Password, First Name, Last Name, and Zip/Postal Code. There are no restrictions or validation checks to ensure correct input formats before proceeding.
+
+**Steps to Reproduce**:
+1.Navigate to the Login screen or Checkout screen.
+2.In Login screen, enter any type of input (numbers/special characters/text) in Username and Password fields.
+3.In Checkout screen, enter invalid data such as numbers in First Name/Last Name fields or text in Zip/Postal Code field.
+4.Proceed by clicking Login or Continue.
+5.Notice that the input fields accept invalid data without validation on Login and Checkout screens
+
+**Expected Result**: Input fields should enforce proper validation such as format restrictions, character limits, and field-specific input rules before allowing the user to proceed.
+
+**Actual Result**: Input fields accept invalid data without validation on Login and Checkout screens
+
+**Severity**: Medium
+
+**Priority**: High
+
+**Recordings Attached**:[ Input validation recording](https://drive.google.com/file/d/19C9E4x_rgDHTKjWbMWwosGDShj8wYEBy/view?usp=sharing)
+
+____________________________________________________________________________________________________________________________________________________________________________________________________________________________
