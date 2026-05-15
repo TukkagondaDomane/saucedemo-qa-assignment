@@ -174,7 +174,7 @@ ________________________________________________________________________________
 
 
 
-<span style="color: yellow;">Other than these , I noticed following issues for standard user account.</span>
+🔴 Other than these , I noticed following issues for standard user account.🔴
 1. User can place order without adding a single prodcut to the cart.
 2. Debug texts appearing on product title and description. ex: carry.allTheThings()   , Test.allTheThings()
 3. When user is on product screen or product details screen , cursor should be pointer upon hovering on the cart icon instead of normal cursor. Whichever buttons/texts/links are clickable should get cursor pointer.
