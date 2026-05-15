@@ -55,4 +55,41 @@ ________________________________________________________________________________
 **Priority**: Medium
 
 **Recordings Attached**: ['X' icon issue recording](https://drive.google.com/file/d/1iBxeQo4dSYQkaJsGTmUH88PeAPEFP1ua/view)
+
+
+____________________________________________________________________________________________________________________________________________________________________________________________________________________________
+
+
+
+
+**BUG 003**
+
+**Title**: Incorrect validation message shown when both Username and Password fields are empty on Login screen.
+
+**Description**: When both Username and Password fields are empty and the Login button is clicked, only Username validation is shown while Password is not validated.
+
+**Note**:
+- Error messages use the prefix “Epic sadface:” as plain text instead of a visual indicator such as emoji.
+- On smaller screens like iPhone SE, longer error messages like 'Epic sadface: Username and password do not match any user in this service' overlap with the error message's container borders.
+
+**Steps to Reproduce**:
+1. Navigate to the Login screen.
+2. Leave both Username and Password fields empty.
+3. Click on the Login button.
+4. Observe validation behavior.
+5. Trigger a long error message using invalid credentials.
+6. Switch to a small screen view (e.g., iPhone SE in responsive mode).
+7. Observe error message layout.
+
+**Expected Result**: Both Username and Password fields should show validation, with properly styled error messages that are fully visible on all screen sizes.
+
+**Actual Result**: Incorrect validation message shown when both Username and Password fields are empty on Login screen.
+
+**Severity**: Medium
+
+**Priority**: Medium
+
+**Recordings Attached**: [Validation message recording](https://drive.google.com/file/d/12qVS9mspkn33aMmQTGXMJJgNlQjiQp8w/view?usp=sharing)
+
+____________________________________________________________________________________________________________________________________________________________________________________________________________________________
                          
