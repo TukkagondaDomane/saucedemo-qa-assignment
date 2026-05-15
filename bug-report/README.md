@@ -20,7 +20,7 @@ Note: QA also observed that on mobile browsers such as IQOO Neo 10 Chrome, iPhon
 
 **Priority**: Medium
 
-**Recordings Attached**: [Desktop Recording](https://drive.google.com/file/d/1yEPJAcXrKFnAwAJNPXonbruPiJmedSFk/view)
+**Recordings Attached**: 
+[Desktop Recording](https://drive.google.com/file/d/1yEPJAcXrKFnAwAJNPXonbruPiJmedSFk/view)
+[Mobile Recording     ](https://drive.google.com/file/d/1vzspoaLvyjqsdOnkSGTQsc1JGwWNHkme/view)                    
                          
-                         [Mobile Recording
-](https://drive.google.com/file/d/1vzspoaLvyjqsdOnkSGTQsc1JGwWNHkme/view)
