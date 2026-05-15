@@ -171,3 +171,14 @@ ________________________________________________________________________________
 **Screenshot Attached**:[ Remove button update issue](https://drive.google.com/file/d/192J2_bSiyRoXb0rlshqCeAK8JFKCULTB/view?usp=sharing)
 
 ____________________________________________________________________________________________________________________________________________________________________________________________________________________________
+
+<span style="-color: yellow;">
+
+Other than these , I noticed following issues for standard user account.</span>
+1. User can place order without adding a single prodcut to the cart.
+2. Debug texts appearing on product title and description. ex: carry.allTheThings()   , Test.allTheThings()
+3. When user is on product screen or product details screen , cursor should be pointer upon hovering on the cart icon instead of normal cursor. Whichever buttons/texts/links are clickable should get cursor pointer.
+4. At the footer , The Terms of Service and Privacy Policy should be hyperlinks which will take user to the respective pages.
+5. On the checkout screen , 'QTY' will be displayed which is always 1. There should be option to increase the quantity.
+6. In the side nav-bar the 'Logout' option should be at the end.
+   
