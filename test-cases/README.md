@@ -5,8 +5,11 @@
 **Preconditions**: User is on login page
 
 **Test Steps**:
+
 1.Enter valid username standard_user
+
 2.Enter valid password secret_sauce
+
 3.Click Login
 
 **Expected Result**: User should successfully login and navigate to Products page
@@ -21,8 +24,11 @@ ________________________________________________________________________________
 **Preconditions**: User is on login page
 
 **Test Steps**:
+
 1.Enter invalid username
+
 2.Enter invalid password
+
 3.Click Login
 
 **Expected Result**: Login should fail and user should not be redirected
@@ -34,8 +40,11 @@ ________________________________________________________________________________
 **Preconditions**: User is on login page
 
 **Test Steps**:
+
 1.Leave username empty
+
 2.Leave password empty
+
 3.Click Login
 
 **Expected Result**: Validation message should be shown for required fields
@@ -47,8 +56,11 @@ ________________________________________________________________________________
 **Preconditions**: User is on login page
 
 **Test Steps**:
+
 1.Leave username empty
+
 2.Enter valid password
+
 3.Click Login
 
 **Expected Result**: Username required validation should be shown
@@ -60,8 +72,11 @@ ________________________________________________________________________________
 **Preconditions**: User is on login page
 
 **Test Steps**:
+
 1.Enter valid username
+
 2.Leave password empty
+
 3.Click Login
 
 **Expected Result**: Password required validation should be shown
@@ -73,7 +88,9 @@ ________________________________________________________________________________
 **Preconditions**: User is on login page
 
 **Test Steps**:
+
 1.Enter locked user credentials
+
 2.Click Login
 
 **Expected Result**: User should not be allowed to login
@@ -86,6 +103,7 @@ ________________________________________________________________________________
 **Preconditions**: User is logged in
 
 **Test Steps**:
+
 1.Click “Add to Cart” on a product
 
 **Expected Result**: Product should be added and cart count should increase
@@ -99,6 +117,7 @@ ________________________________________________________________________________
 **Preconditions**: User is logged in
 
 **Test Steps**:
+
 1.Add 2–3 products
 
 **Expected Result**: Cart count should reflect correct number
@@ -112,6 +131,7 @@ ________________________________________________________________________________
 **Preconditions**: Product is added to cart
 
 **Test Steps**:
+
 1.Click “Remove”
 
 **Expected Result**: Product should be removed from cart and count should update
@@ -125,6 +145,7 @@ ________________________________________________________________________________
 **Preconditions**: Products added to cart
 
 **Test Steps**:
+
 1.Navigate away and return to cart page
 
 **Expected Result**: Cart items should remain unchanged
@@ -138,7 +159,9 @@ ________________________________________________________________________________
 **Preconditions**: Items present in cart
 
 **Test Steps**:
+
 1.Open cart
+
 2.Click Checkout
 
 **Expected Result**: User should be navigated to Checkout page
@@ -152,9 +175,13 @@ ________________________________________________________________________________
 **Preconditions**: User is on checkout page with items in cart
 
 **Test Steps**:
+
 1.Enter First Name
+
 2.Enter Last Name
+
 3.Enter Zip Code
+
 4.Continue and finish checkout
 
 **Expected Result**: Order should be placed successfully
@@ -168,7 +195,9 @@ ________________________________________________________________________________
 **Preconditions**: User is on checkout page
 
 **Test Steps**:
+
 1.Leave all fields empty
+
 2.Click Continue
 
 **Expected Result**: Validation should be shown for required fields
@@ -182,7 +211,9 @@ ________________________________________________________________________________
 **Preconditions**: User is on checkout page
 
 **Test Steps**:
+
 1.Enter text in Zip Code field
+
 2.Click Continue
 
 **Expected Result**: Only valid numeric input should be accepted or error shown
@@ -196,6 +227,7 @@ ________________________________________________________________________________
 **Preconditions**: User is on checkout page
 
 **Test Steps**:
+
 1.Click Cancel
 
 **Expected Result**: User should be redirected back to cart page
@@ -209,6 +241,7 @@ ________________________________________________________________________________
 **Preconditions**: User is on Products page
 
 **Test Steps**:
+
 1.Apply sorting (Price/Name)
 
 **Expected Result**: Products should be rearranged correctly
@@ -222,7 +255,9 @@ ________________________________________________________________________________
 **Preconditions**: User is logged in
 
 **Test Steps**:
+
 1.Open sidebar menu
+
 2.Click Logout
 
 **Expected Result**: User should be logged out and redirected to login page
@@ -236,7 +271,9 @@ ________________________________________________________________________________
 **Preconditions**: Products added to cart
 
 **Test Steps**:
+
 1.Open sidebar
+
 2.Click Reset App State
 
 **Expected Result**: Cart should reset and UI should reflect initial state
@@ -250,7 +287,9 @@ ________________________________________________________________________________
 **Preconditions**: User is on any page
 
 **Test Steps**:
+
 1.Open developer tools
+
 2.Switch to mobile view (iPhone SE)
 
 **Expected Result**: UI should adjust properly without overlap or distortion
@@ -264,8 +303,11 @@ ________________________________________________________________________________
 **Preconditions**: User is logged in
 
 **Test Steps**:
+
 1.Add product to cart
+
 2.Remove product
+
 3.Observe cart icon
 
 **Expected Result**: Cart icon should always reflect correct cart count
