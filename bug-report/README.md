@@ -144,3 +144,30 @@ ________________________________________________________________________________
 **Screenshot Attached**: [Incorrect brand name](https://drive.google.com/file/d/1Be87FX_MMEls_4aNknJC5fSOm8YyOt0p/view?usp=sharing)
 
 ____________________________________________________________________________________________________________________________________________________________________________________________________________________________
+
+
+**BUG 006**
+
+**Title**: 'Remove' button fails to update to 'Add to Cart' after using “Reset App State” from side nav-bar in product screen.
+
+**Description**: It is observed that after adding products to the cart, the cart icon correctly shows the number of added items and the product button changes from 'Add to Cart' to 'Remove'. However, when the user clicks on 'Reset App State' from the side nav-bar, the cart count resets to empty, but the product button state remains as “Remove” instead of reverting back to 'Add to Cart'.
+
+**Steps to Reproduce**:
+1.Navigate to the Products screen after login.
+2.Click 'Add to Cart' for one or more products.
+3.Observe the cart icon showing the number of added items and button of the product changing to 'Remove'.
+4.Open the side nav-bar menu.
+5.Click on 'Reset App State'.
+6.Observe the cart icon and product button state.
+
+**Expected Result**: 'Remove' button should update to 'Add to Cart' after using “Reset App State” from side nav-bar in product screen.
+
+**Actual Result**: 'Remove' button fails to update to 'Add to Cart' after using “Reset App State” from side nav-bar in product screen.
+
+**Severity**: Medium
+
+**Priority**: High
+
+**Screenshot Attached**:[ Remove button update issue](https://drive.google.com/file/d/192J2_bSiyRoXb0rlshqCeAK8JFKCULTB/view?usp=sharing)
+
+____________________________________________________________________________________________________________________________________________________________________________________________________________________________
