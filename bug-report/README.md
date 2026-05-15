@@ -16,6 +16,7 @@ Note: QA also observed that on mobile browsers such as IQOO Neo 10 Chrome, iPhon
 **Actual Result**: The password visibility (eye) icon disappears once the password input field loses focus, despite text still being present in the password input field.
 
 **Severity**: Medium
+
 **Priority**: Medium
 
 **Recordings Attached**: [Desktop Response](https://drive.google.com/file/d/1yEPJAcXrKFnAwAJNPXonbruPiJmedSFk/view)
