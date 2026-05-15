@@ -22,5 +22,33 @@ Note: QA also observed that on mobile browsers such as IQOO Neo 10 Chrome, iPhon
 
 **Recordings Attached**: 
 [Desktop Recording](https://drive.google.com/file/d/1yEPJAcXrKFnAwAJNPXonbruPiJmedSFk/view)
-[Mobile Recording     ](https://drive.google.com/file/d/1vzspoaLvyjqsdOnkSGTQsc1JGwWNHkme/view)                    
+[Mobile Recording     ](https://drive.google.com/file/d/1vzspoaLvyjqsdOnkSGTQsc1JGwWNHkme/view)       
+
+
+
+
+**BUG 002**
+
+**Title**: Non-functional “X” (clear) icon is displayed on input fields after clicking action buttons (Login/Checkout) with empty or incorrect field details on Login and Checkout screens.
+
+**Description**: It is observed on both Login and Checkout screens that when the user clicks on action buttons such as Login or Checkout with empty or invalid input field values, an “X” (clear) icon is displayed inside the input fields. However, this icon is non-functional and does not perform any action when clicked. Additionally, on hovering over the icon, the cursor remains as the default text cursor instead of changing to a pointer.
+
+**Steps to Reproduce**:
+1.Navigate to the Login screen or Checkout screen.
+2. Leave required input fields empty OR enter invalid values.
+3. Click on the Login button (Login screen) or Checkout button (Checkout screen).
+4. Observe that an “X” (clear) icon appears inside the input fields.
+5. Hover over the “X” icon and observe cursor behavior.
+6. Click on the “X” icon.
+7. Notice that the 'X' icon fails to disappear from the input field along with the text in the field if user has typed.
+
+**Expected Result**: If an “X” (clear) icon is displayed on input fields, it should be functional and clear the respective input field when clicked. Additionally, the cursor should change to a pointer on hover to indicate it is clickable.
+
+**Actual Result**: Non-functional “X” (clear) icon is displayed on input fields after clicking action buttons (Login/Checkout) with empty or incorrect field details on Login and Checkout screens.
+
+**Severity**: Medium
+
+**Priority**: Medium
+
+**Recordings Attached**: ['X' icon issue recording](https://drive.google.com/file/d/1iBxeQo4dSYQkaJsGTmUH88PeAPEFP1ua/view)
                          
