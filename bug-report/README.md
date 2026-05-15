@@ -3,6 +3,7 @@
 **Title**: Password visibility (eye) icon disappears after losing focus from password input field on the login screen.
 
 **Description**: It is observed on the login screen that the password visibility (eye) icon appears temporarily while entering text in the password input field. However, once the password field loses focus, the icon disappears and does not appear again unless the existing password text is completely cleared and re-entered.
+
 Note: QA also observed that on mobile browsers such as IQOO Neo 10 Chrome, iPhone 11 Chrome, and iPhone 11 Safari, the password visibility icon does not appear at all.
 
 **Steps to Reproduce**:
